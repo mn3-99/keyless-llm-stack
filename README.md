@@ -3,6 +3,10 @@
 OpenAI-compatible LLM access with **zero API keys, zero registration, zero user credentials**.
 Everything is driven by public keyless endpoints — tested live, end to end.
 
+- **Live site:** https://mn3-99.github.io/keyless-llm-stack/
+- **Always-hosted smart API (no auth):** `https://api.kilo.ai/api/gateway` with `model=kilo-auto/free`
+- **Auto-refresh:** a GitHub Actions workflow re-runs the whole benchmark daily and commits fresh numbers.
+
 ## What's inside
 
 | File | Purpose |

@@ -18,6 +18,9 @@ jobs:
   benchmark:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      G4F_KEY: g4f-CI
+      FL_KEY: flmp-CI
     steps:
       - uses: actions/checkout@v4
 
@@ -26,28 +29,42 @@ jobs:
           python-version: "3.12"
 
       - name: Install stack
-        run: |
-          python -m pip install --quiet g4f freellmpool
+        run: python -m pip install --quiet g4f freellmpool
 
       - name: Start local gateways
         run: |
-          setsid env FREELLMPOOL_PROXY_KEY="flmp-CI" python3 -m freellmpool proxy \
+          setsid env FREELLMPOOL_PROXY_KEY="$FL_KEY" python3 -m freellmpool proxy \
             --host 127.0.0.1 --port 18090 > /tmp/fl.log 2>&1 < /dev/null &
-          setsid g4f --bind "127.0.0.1:18091" --no-gui --g4f-api-key g4f-CI \
+          setsid g4f --bind "127.0.0.1:18091" --no-gui --g4f-api-key "$G4F_KEY" \
             > /tmp/g4f.log 2>&1 < /dev/null &
-          sleep 10
+          ok=0
+          for i in $(seq 1 30); do
+            sleep 5
+            a=$(curl -s -m 3 -o /dev/null -w "%{http_code}" -H "Authorization: Bearer $FL_KEY" "http://127.0.0.1:18090/v1/models" || true)
+            b=$(curl -s -m 3 -o /dev/null -w "%{http_code}" -H "Authorization: Bearer $G4F_KEY" "http://127.0.0.1:18091/v1/models" || true)
+            echo "wait $i: freellmpool=$a g4f=$b"
+            if [ "$a" = "200" ] && [ "$b" = "200" ]; then ok=1; break; fi
+          done
+          if [ "$ok" != "1" ]; then
+            echo "!!! gateways failed to start"
+            echo "--- freellmpool log ---"; cat /tmp/fl.log || true
+            echo "--- g4f log ---"; cat /tmp/g4f.log || true
+            exit 1
+          fi
 
       - name: Run benchmark
         run: python3 benchmark_models.py
-
-      - name: Show summary head
-        run: head -40 model_benchmark_summary.md
 
       - name: Commit fresh results
         run: |
           git config user.name "mn3-99"
           git config user.email "mn3-99@users.noreply.github.com"
-          git add model_benchmark.jsonl model_benchmark_summary.md model_benchmark_report.md
-          git -c user.name="mn3-99" -c user.email="mn3-99@users.noreply.github.com" \
-            commit -q -m "chore: refresh live benchmark $(date -u +%Y-%m-%d)" || echo "no changes"
-          git push || echo "push skipped"
+          git add model_benchmark.jsonl model_benchmark_summary.md model_benchmark_report.md .bench.progress
+          if git diff --cached --quiet; then echo "no changes"; else
+            git -c user.name="mn3-99" -c user.email="mn3-99@users.noreply.github.com" \
+              commit -q -m "chore: refresh live benchmark $(date -u +%Y-%m-%d)"
+            git push || echo "push skipped"
+          fi
+
+      - name: Show summary head
+        run: head -30 model_benchmark_summary.md

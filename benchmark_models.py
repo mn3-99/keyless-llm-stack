@@ -25,9 +25,9 @@ def targets():
             T.append(("freellmpool", m["id"], "http://127.0.0.1:18090/v1/chat/completions", "flmp-KEEP97"))
     except Exception as e:
         print("freellmpool enumerate failed:", e)
-    # kilo direct
+    # kilo direct (self-fetch model list, no local file dependency)
     try:
-        d = json.load(open("/tmp/kilomodels.txt"))
+        d = json.load(urllib.request.urlopen("https://api.kilo.ai/api/gateway/models", timeout=25))
         ids = [m.get("id") for m in (d if isinstance(d, list) else d.get("data", []))]
         for i in ids:
             if i and ":free" in i:
