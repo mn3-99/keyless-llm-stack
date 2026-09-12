@@ -1,0 +1,329 @@
+{"target": "g4f", "model": "gpt-4", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-4o-mini", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "default", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-4o", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "o1-mini", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-4o-mini-tts", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "o1", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "o3-mini", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "o3-mini-high", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "o4-mini", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "o4-mini-high", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-4.1", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-4.1-mini", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-4.1-nano", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-oss-120b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-4.5", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "meta-ai", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-2-70b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "dall-e-3", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-image", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3.1-8b", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3-8b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3-70b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3.1-70b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3.1-405b", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3.2-90b", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3.2-3b", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-4-scout", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-4-maverick", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "mistral-7b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "mixtral-8x7b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "mistral-small-24b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "mistral-small-3.1-24b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "hermes-2-dpo", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-2.5-flash", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-2.5-pro", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3-pro-preview", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3.1-pro", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3.5-flash", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3.1-flash-lite", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3.6-flash", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3.5-flash-lite", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3.5-flash-thinking", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-auto", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-3.5-flash-thinking-lite", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemini-flash-lite", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-r7b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-a", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-2.5-coder-32b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-2.5-vl-72b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-235b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-32b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwq-32b", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v3", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-r1", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-r1-distill-llama-70b", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-r1-distill-qwen-1.5b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "grok-2", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "grok-3", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-r1-distill-qwen-14b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "grok-3-r1", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "kimi-k2", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "sonar", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "sonar-pro", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "sonar-reasoning", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "r1-1776", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "nemotron-70b", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "sonar-reasoning-pro", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "aria", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "sd-3.5-large", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "sdxl-turbo", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "flux", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "flux-pro", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "flux-kontext", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-5.2", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "kimi-k2.7-code", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "nemotron-3-ultra-550b-a55b", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v4-flash", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v4-pro", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "kimi-k2.6", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "mimo-v2.5-pro", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3.6-35b-a3b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-5.1", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3.5-397b-a17b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-4-26b-a4b-it", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "nemotron-3-super-120b-a12b", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-4-31b-it", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-5", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "minimax-m2.5", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-max", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-max-thinking", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "kimi-k2.5", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.7-flash", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v3.2", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "flux-2-klein-4b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "flux-2-klein-9b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "inkling", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "ternary-bonsai-27b-gguf", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3.6-27b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "hy3", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "ornith-1.0-35b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "apertus-v1.5-70b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "minimax-m3", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "apertus-v1.5-8b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3.5-9b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-8b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-oss-20b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3.5-27b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-coder-30b-a3b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "mimo-v2.5", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-coder-next", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-3-4b-it", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3.5-122b-a10b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "ling-2.6-1t", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-4b-2507", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "step-3.7-flash", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.5-air", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-14b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-next-80b-a3b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-2.5-coder-7b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "nemotron-3-ultra-550b-a55b-nvfp4", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3.5-35b-a3b", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-3-12b-it", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-3-27b-it", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-vl-30b-a3b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "phi-4", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "kimi-k2-0905", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "ternary-bonsai-27b-awq-4bit", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-2.5-7b", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-vl-235b-a22b", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-coder-480b-a35b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-3.3-70b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gpt-oss-safeguard-20b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-r7b24", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-4-scout-17b-16e", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-235b-a22b-2507", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "step-3.5-flash", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-2.5-coder-3b", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "l3-8b-stheno-v3.2", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-r1-distill-qwen-7b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-guard-4-12b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-4b-thinking-2507", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.7", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-sea-lion-v4-27b-it", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-a25", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-r1-distill-llama-8b", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "apertus-8b-2509", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "tiny-aya-global", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "bielik-11b-v3.0", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-235b-a22b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "minimax-m2.7", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "tiny-aya-earth", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "llama-4-maverick-17b-128e", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v3-0324", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "ernie-4.5-vl-424b-a47b-base-pt", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4-32b-0414", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-r1-0528", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-235b-a22b-thinking-2507", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.5", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "wizardlm-2-8x22b", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.5v", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-2.5-72b", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.6", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "l3-8b-lunaris", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.6v-flash", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v3.1", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "glm-4.6v", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "minimax-m1-80k", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v3.1-terminus", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-r24", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "deepseek-v3.2-exp", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "aya-expanse-32b", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "aya-vision-32b", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "minimax-m2", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-r7b-arabic25", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-a-reasoning25", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-a-vision25", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "minimax-m2.1", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-3n-e4b-it", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-a-translate25", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-3-vl-235b-a22b-thinking", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "tiny-aya-water", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "gemma-4-31b-it-pearl", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "apertus-70b-2509", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "autoglm-phone-9b-multilingual", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "qwen-sea-lion-v4-32b-it", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "tiny-aya-fire", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "olmo-3-7b", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-r", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "eurollm-22b-2512", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-r-plus", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "command-r-plus24", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "flux-dev", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "flux-kontext-dev", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "perplexity", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "pplx_pro", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "AIBadgr", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "video", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Anthropic", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Antigravity", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Airforce", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "BingCreateImages", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "BraveSearch", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "BlackForestLabs_Flux1KontextDev", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "BlackForestLabs_Flux1Dev", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "BlackboxPro", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "CachedSearch", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Claude", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Cerebras", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Cloudflare", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Cohere", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "CohereForAI_C4AI_Command", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Copilot", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "CopilotAccount", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "CopilotApp", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "CopilotSession", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "ElevenLabs", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "G4FSpace", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GLM", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GeminiCLI", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Gemini", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GeminiPro", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GigaChat", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GithubCopilot", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GithubCopilotAPI", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GoogleAiMode", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "GoogleSearch", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Grok", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Groq", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "HailuoAI", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "HuggingChat", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "HuggingFace", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "HuggingFaceMedia", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "HuggingSpace", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "LMArena", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "MetaAIAccount", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "MetaAI", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "MiniMax", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "MicrosoftDesigner", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Nvidia", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "RelayRouter", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "LLM7", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "KiloCode", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Ollama", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OpenAIFM", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OpenCode", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OpenRouter", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OrcaRouter", "ok": false, "latency_s": 45.01, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OpenRouterFree", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OpenaiAPI", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OpenaiAccount", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OpenaiChat", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "OperaAria", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Perplexity", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "PerplexityApi", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Pollinations", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "PhindAi", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Pi", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "PollinationsAudio", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Puter", "ok": false, "latency_s": 45.02, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Replicate", "ok": false, "latency_s": 45.0, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Qwen", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "PollinationsImage", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "StabilityAI_SD35Large", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "TeachAnything", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "ThebApi", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Together", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "WhiteRabbitNeo", "ok": false, "latency_s": 45.03, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "You", "ok": false, "latency_s": 45.04, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "xAI", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "g4f", "model": "Yqcloud", "ok": false, "latency_s": 45.05, "correct": false, "answer": "", "error": "timed out"}
+{"target": "freellmpool", "model": "fast", "ok": true, "latency_s": 2.51, "correct": true, "answer": "15", "completion_tokens": 3, "total_tokens": 19}
+{"target": "freellmpool", "model": "auto", "ok": true, "latency_s": 2.85, "correct": true, "answer": "15", "completion_tokens": 27, "total_tokens": 56}
+{"target": "freellmpool", "model": "spread", "ok": true, "latency_s": 2.91, "correct": true, "answer": "User asks: \"What is 7+8? Reply with only the number.\" So answer: 15. Must reply ", "completion_tokens": 40, "total_tokens": 69}
+{"target": "freellmpool", "model": "pollinations/openai", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (pollinations/openai: skipped (persistent circuit open))\", \"type\": \"all_p"}
+{"target": "freellmpool", "model": "pollinations/openai-fast", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (pollinations/openai-fast: skipped (persistent circuit open))\", \"type\": \""}
+{"target": "freellmpool", "model": "pollinations/gpt-oss", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (pollinations/gpt-oss: skipped (persistent circuit open))\", \"type\": \"all_"}
+{"target": "freellmpool", "model": "llm7/default", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (llm7/default: skipped (persistent circuit open))\", \"type\": \"all_provider"}
+{"target": "freellmpool", "model": "fair", "ok": true, "latency_s": 1.37, "correct": true, "answer": "15", "completion_tokens": 3, "total_tokens": 19}
+{"target": "freellmpool", "model": "quality", "ok": true, "latency_s": 3.09, "correct": true, "answer": "15", "completion_tokens": 36, "total_tokens": 49}
+{"target": "freellmpool", "model": "ovh/Meta-Llama-3_3-70B-Instruct", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Meta-Llama-3_3-70B-Instruct: skipped (persistent circuit open))\", \"t"}
+{"target": "freellmpool", "model": "ovh/Qwen3.5-397B-A17B", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Qwen3.5-397B-A17B: skipped (persistent circuit open))\", \"type\": \"all"}
+{"target": "freellmpool", "model": "ovh/gpt-oss-120b", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/gpt-oss-120b: skipped (persistent circuit open))\", \"type\": \"all_prov"}
+{"target": "freellmpool", "model": "ovh/Mistral-Small-3.2-24B-Instruct-2506", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Mistral-Small-3.2-24B-Instruct-2506: skipped (persistent circuit ope"}
+{"target": "freellmpool", "model": "ovh/Mistral-Nemo-Instruct-2407", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Mistral-Nemo-Instruct-2407: skipped (persistent circuit open))\", \"ty"}
+{"target": "freellmpool", "model": "ovh/Qwen3.6-27B", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Qwen3.6-27B: skipped (persistent circuit open))\", \"type\": \"all_provi"}
+{"target": "freellmpool", "model": "ovh/Qwen3-32B", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Qwen3-32B: skipped (persistent circuit open))\", \"type\": \"all_provide"}
+{"target": "freellmpool", "model": "ovh/Qwen3.5-9B", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Qwen3.5-9B: skipped (persistent circuit open))\", \"type\": \"all_provid"}
+{"target": "freellmpool", "model": "ovh/Qwen2.5-VL-72B-Instruct", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Qwen2.5-VL-72B-Instruct: skipped (persistent circuit open))\", \"type\""}
+{"target": "freellmpool", "model": "ovh/Mistral-7B-Instruct-v0.3", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Mistral-7B-Instruct-v0.3: skipped (persistent circuit open))\", \"type"}
+{"target": "freellmpool", "model": "ovh/gpt-oss-20b", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/gpt-oss-20b: skipped (persistent circuit open))\", \"type\": \"all_provi"}
+{"target": "freellmpool", "model": "ovh/Qwen3-Coder-30B-A3B-Instruct", "ok": false, "latency_s": 0.0, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (ovh/Qwen3-Coder-30B-A3B-Instruct: skipped (persistent circuit open))\", \""}
+{"target": "freellmpool", "model": "llm7/codestral-latest", "ok": true, "latency_s": 1.46, "correct": true, "answer": "15", "completion_tokens": 3, "total_tokens": 19}
+{"target": "freellmpool", "model": "agent", "ok": true, "latency_s": 6.53, "correct": true, "answer": "15", "completion_tokens": 30, "total_tokens": 59}
+{"target": "freellmpool", "model": "kilo/kilo-auto/free", "ok": false, "latency_s": 1.12, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (kilo/kilo-auto/free: empty completion)\", \"type\": \"all_providers_exhauste"}
+{"target": "freellmpool", "model": "kilo/openrouter/free", "ok": true, "latency_s": 1.27, "correct": true, "answer": "15", "completion_tokens": 23, "total_tokens": 56}
+{"target": "freellmpool", "model": "kilo/poolside/laguna-xs-2.1:free", "ok": false, "latency_s": 0.59, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (kilo/poolside/laguna-xs-2.1:free: empty completion)\", \"type\": \"all_provi"}
+{"target": "freellmpool", "model": "kilo/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", "ok": true, "latency_s": 0.92, "correct": true, "answer": "15", "completion_tokens": 35, "total_tokens": 64}
+{"target": "freellmpool", "model": "kilo/nvidia/nemotron-3-super-120b-a12b:free", "ok": true, "latency_s": 0.83, "correct": true, "answer": "15", "completion_tokens": 47, "total_tokens": 76}
+{"target": "freellmpool", "model": "kilo/nvidia/nemotron-3-ultra-550b-a55b:free", "ok": true, "latency_s": 0.79, "correct": true, "answer": "15", "completion_tokens": 30, "total_tokens": 59}
+{"target": "freellmpool", "model": "kilo/dots-studio/dots-3-note-preview:free", "ok": false, "latency_s": 1.24, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (kilo/dots-studio/dots-3-note-preview:free: empty completion)\", \"type\": \""}
+{"target": "freellmpool", "model": "kilo/cohere/north-mini-code:free", "ok": true, "latency_s": 2.36, "correct": true, "answer": "15", "completion_tokens": 36, "total_tokens": 49}
+{"target": "freellmpool", "model": "kilo/inclusionai/ling-3.0-flash-fin:free", "ok": true, "latency_s": 0.76, "correct": true, "answer": "15", "completion_tokens": 21, "total_tokens": 54}
+{"target": "freellmpool", "model": "kilo/meituan/longcat-2.0-free", "ok": false, "latency_s": 0.11, "correct": false, "answer": "", "error": "HTTP 401: {\"error\": {\"message\": \"HTTP 401: You need to sign in to use this model.\", \"type\": \"invalid_request_error\"}}"}
+{"target": "freellmpool", "model": "kilo/liquid/lfm-2.5-2.6b:free", "ok": false, "latency_s": 0.57, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (kilo/liquid/lfm-2.5-2.6b:free: empty completion)\", \"type\": \"all_provider"}
+{"target": "freellmpool", "model": "kilo/minimax/minimax-m2.7:free", "ok": false, "latency_s": 0.21, "correct": false, "answer": "", "error": "HTTP 404: {\"error\": {\"message\": \"HTTP 404: The requested model 'minimax/minimax-m2.7:free' does not exist. Please use an exact mod"}
+{"target": "freellmpool", "model": "kilo/stepfun/step-3.7-flash:free", "ok": false, "latency_s": 4.88, "correct": false, "answer": "", "error": "HTTP 502: {\"error\": {\"message\": \"all providers exhausted (kilo/stepfun/step-3.7-flash:free: empty completion)\", \"type\": \"all_provi"}
+{"target": "freellmpool", "model": "llm7/fast", "ok": true, "latency_s": 8.73, "correct": true, "answer": "15", "completion_tokens": 35, "total_tokens": 64}
+{"target": "freellmpool", "model": "kilo/tencent/hy3:free", "ok": false, "latency_s": 0.11, "correct": false, "answer": "", "error": "HTTP 404: {\"error\": {\"message\": \"HTTP 404: The requested model 'tencent/hy3:free' does not exist. Please use an exact model id as "}
+{"target": "freellmpool", "model": "kilo/nvidia/nemotron-3.5-lightning:free", "ok": true, "latency_s": 1.14, "correct": true, "answer": "15", "completion_tokens": 125, "total_tokens": 154}
+{"target": "kilo-direct", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "ok": true, "latency_s": 0.83, "correct": true, "answer": "15", "completion_tokens": 39, "total_tokens": 68}
+{"target": "freellmpool", "model": "kilo/poolside/laguna-s-2.1:free", "ok": true, "latency_s": 2.45, "correct": true, "answer": "15", "completion_tokens": 3, "total_tokens": 58}
+{"target": "kilo-direct", "model": "dots-studio/dots-3-note-preview:free", "ok": true, "latency_s": 1.4, "correct": false, "answer": "", "completion_tokens": 40, "total_tokens": 66}
+{"target": "kilo-direct", "model": "nex-agi/nex-n2.5-pro:free", "ok": true, "latency_s": 0.86, "correct": true, "answer": "15", "completion_tokens": 6, "total_tokens": 28}
+{"target": "kilo-direct", "model": "inclusionai/ling-3.0-flash-vl:free", "ok": true, "latency_s": 0.93, "correct": true, "answer": "15", "completion_tokens": 25, "total_tokens": 58}
+{"target": "kilo-direct", "model": "inclusionai/ling-3.0-flash-sante:free", "ok": true, "latency_s": 1.05, "correct": false, "answer": "", "completion_tokens": 40, "total_tokens": 73}
+{"target": "kilo-direct", "model": "nex-agi/nex-n2.5-mini:free", "ok": true, "latency_s": 1.58, "correct": true, "answer": "15", "completion_tokens": 6, "total_tokens": 28}
+{"target": "kilo-direct", "model": "poolside/laguna-s-2.1:free", "ok": true, "latency_s": 4.11, "correct": true, "answer": "15", "completion_tokens": 3, "total_tokens": 58}
+{"target": "kilo-direct", "model": "nvidia/nemotron-3.5-lightning:free", "ok": true, "latency_s": 1.0, "correct": false, "answer": "Here's a thinking process: 1. **Analyze User Input:** User asks \"What is 7+8? Re", "completion_tokens": 40, "total_tokens": 69}
+{"target": "kilo-direct", "model": "liquid/lfm-2.5-2.6b:free", "ok": true, "latency_s": 1.76, "correct": false, "answer": "", "completion_tokens": 40, "total_tokens": 64}
+{"target": "kilo-direct", "model": "inclusionai/ling-3.0-flash-fin:free", "ok": true, "latency_s": 1.94, "correct": true, "answer": "15", "completion_tokens": 23, "total_tokens": 56}
+{"target": "kilo-direct", "model": "thinkingmachines/inkling-small:free", "ok": false, "latency_s": 0.53, "correct": false, "answer": "", "error": "HTTP 429: {\"error\":{\"message\":\"Rate limit exceeded: limit_rpd/thinkingmachines/inkling-small-20260730/e27a9a6d-1451-4be4-876e-292f"}
+{"target": "kilo-direct", "model": "poolside/laguna-xs-2.1:free", "ok": true, "latency_s": 0.64, "correct": false, "answer": "", "completion_tokens": 40, "total_tokens": 95}
+{"target": "kilo-direct", "model": "cohere/north-mini-code:free", "ok": true, "latency_s": 0.51, "correct": true, "answer": "15", "completion_tokens": 36, "total_tokens": 49}
+{"target": "kilo-direct", "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", "ok": false, "latency_s": 0.65, "correct": false, "answer": "", "error": "'choices'"}
+{"target": "kilo-direct", "model": "nvidia/nemotron-3-super-120b-a12b:free", "ok": true, "latency_s": 0.82, "correct": true, "answer": "User asks: \"What is 7+8? Reply with only the number.\" So answer: 15. Must reply ", "completion_tokens": 40, "total_tokens": 69}
+{"target": "kilo-direct", "model": "nvidia/nemotron-3.5-content-safety:free", "ok": true, "latency_s": 1.44, "correct": false, "answer": "", "completion_tokens": 40, "total_tokens": 515}
+{"target": "kilo-direct", "model": "stepfun/step-3.7-flash:free", "ok": true, "latency_s": 2.33, "correct": false, "answer": "", "completion_tokens": 40, "total_tokens": 65}
