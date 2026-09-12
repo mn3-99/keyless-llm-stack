@@ -21,7 +21,8 @@ start_g4f() {
   if curl -s -m 2 "http://127.0.0.1:${G4_PORT}/v1/models" -H "Authorization: Bearer ${G4_KEY}" >/dev/null 2>&1; then
     echo "[=] g4f already up on :${G4_PORT}"; return
   fi
-  setsid g4f --bind "127.0.0.1:${G4_PORT}" --no-gui --g4f-api-key "${G4_KEY}" \
+  SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  setsid env G4F_API_KEY="${G4_KEY}" python3 "${SCRIPT_DIR}/launch_g4f.py" "127.0.0.1:${G4_PORT}" \
     > /tmp/g4f-server.log 2>&1 < /dev/null &
   echo "[+] g4f -> http://127.0.0.1:${G4_PORT}/v1 (key ${G4_KEY})"
 }

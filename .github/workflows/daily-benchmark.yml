@@ -29,13 +29,15 @@ jobs:
           python-version: "3.12"
 
       - name: Install stack
-        run: python -m pip install --quiet "g4f==8.4.8" freellmpool
+        run: |
+          python -m pip install --quiet "g4f==8.4.8" freellmpool uvicorn
+          python -c "import g4f; print('g4f version:', getattr(g4f, '__version__', 'unknown'))"
 
       - name: Start local gateways
         run: |
           setsid env FREELLMPOOL_PROXY_KEY="$FL_KEY" python3 -m freellmpool proxy \
             --host 127.0.0.1 --port 18090 > /tmp/fl.log 2>&1 < /dev/null &
-          setsid g4f --bind "127.0.0.1:18091" --no-gui --g4f-api-key "$G4F_KEY" \
+          setsid env G4F_API_KEY="$G4F_KEY" python3 launch_g4f.py "127.0.0.1:18091" \
             > /tmp/g4f.log 2>&1 < /dev/null &
           ok=0
           for i in $(seq 1 30); do
