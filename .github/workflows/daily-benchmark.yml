@@ -17,7 +17,7 @@ concurrency:
 jobs:
   benchmark:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     env:
       G4F_KEY: g4f-CI
       FL_KEY: flmp-CI

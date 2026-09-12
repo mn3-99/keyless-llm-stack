@@ -45,7 +45,7 @@ def targets():
         print("kilo enumerate failed:", e)
     return T
 
-def call(kind, model, url, key, timeout=75):
+def call(kind, model, url, key, timeout=45):
     body = json.dumps({"model": model, "messages": [{"role": "user", "content": PROMPT}],
                        "max_tokens": 40, "temperature": 0}).encode()
     h = {"Content-Type": "application/json"}
