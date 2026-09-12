@@ -30,7 +30,7 @@ jobs:
 
       - name: Install stack
         run: |
-          python -m pip install --quiet "g4f==8.4.8" freellmpool uvicorn
+          python -m pip install --quiet "g4f==8.4.8" freellmpool fastapi uvicorn python-multipart sse-starlette
           python -c "import g4f; print('g4f version:', getattr(g4f, '__version__', 'unknown'))"
 
       - name: Start local gateways
