@@ -2,27 +2,36 @@
 """Real benchmark of every no-credential model across the local gateways."""
 import json, time, urllib.request, urllib.error, concurrent.futures as cf, random, os, sys
 
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "model_benchmark.jsonl")
+SUM = os.path.join(HERE, "model_benchmark_summary.md")
+REPORT = os.path.join(HERE, "model_benchmark_report.md")
+PROG = os.path.join(HERE, ".bench.progress")
+
+G4F_URL = os.environ.get("G4F_URL", "http://127.0.0.1:18091")
+G4F_KEY = os.environ.get("G4F_KEY", "g4f-KEEP")
+FL_URL = os.environ.get("FL_URL", "http://127.0.0.1:18090")
+FL_KEY = os.environ.get("FL_KEY", "flmp-KEEP97")
+
 PROMPT = "What is 7+8? Reply with only the number."
 EXPECT = "15"
-OUT = "/content/model_benchmark.jsonl"
-PROG = "/tmp/bench.progress"
 
 def targets():
     T = []
     # g4f
     try:
-        req = urllib.request.Request("http://127.0.0.1:18091/v1/models",
-                                     headers={"Authorization": "Bearer g4f-KEEP"})
+        req = urllib.request.Request(f"{G4F_URL}/v1/models",
+                                     headers={"Authorization": f"Bearer {G4F_KEY}"})
         for m in json.load(urllib.request.urlopen(req, timeout=20))["data"]:
-            T.append(("g4f", m["id"], "http://127.0.0.1:18091/v1/chat/completions", "g4f-KEEP"))
+            T.append(("g4f", m["id"], f"{G4F_URL}/v1/chat/completions", G4F_KEY))
     except Exception as e:
         print("g4f enumerate failed:", e)
     # freellmpool
     try:
-        req = urllib.request.Request("http://127.0.0.1:18090/v1/models",
-                                     headers={"Authorization": "Bearer flmp-KEEP97"})
+        req = urllib.request.Request(f"{FL_URL}/v1/models",
+                                     headers={"Authorization": f"Bearer {FL_KEY}"})
         for m in json.load(urllib.request.urlopen(req, timeout=20))["data"]:
-            T.append(("freellmpool", m["id"], "http://127.0.0.1:18090/v1/chat/completions", "flmp-KEEP97"))
+            T.append(("freellmpool", m["id"], f"{FL_URL}/v1/chat/completions", FL_KEY))
     except Exception as e:
         print("freellmpool enumerate failed:", e)
     # kilo direct (self-fetch model list, no local file dependency)
@@ -95,7 +104,14 @@ def main():
     for r in results:
         if not r["ok"]:
             lines.append(f"- {r['target']}  {r['model']}  ->  {r.get('error','')}")
-    open("/content/model_benchmark_summary.md", "w").write("\n".join(lines))
+    open(SUM, "w").write("\n".join(lines))
+    report = [f"# Full benchmark report: {total} endpoints ({time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime())})", ""]
+    report += [l for l in lines]
+    report += ["", "## All responses", ""]
+    for r in sorted(results, key=lambda x: (x["target"], x["model"])):
+        status = "OK" if r["ok"] else r.get("error", "").split(":")[0]
+        report.append(f"- {status:>14}  {r['latency_s']:>7.2f}s  {'CORRECT' if r.get('correct') else '       '}  {r['target']}  {r['model']}  {r.get('answer','').strip()[:60]}")
+    open(REPORT, "w").write("\n".join(report))
     open(PROG, "w").write(f"DONE {done}/{total}")
 
 if __name__ == "__main__":
