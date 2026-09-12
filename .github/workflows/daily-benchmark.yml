@@ -1,0 +1,53 @@
+name: daily-benchmark
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: benchmark
+  cancel-in-progress: true
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install stack
+        run: |
+          python -m pip install --quiet g4f freellmpool
+
+      - name: Start local gateways
+        run: |
+          setsid env FREELLMPOOL_PROXY_KEY="flmp-CI" python3 -m freellmpool proxy \
+            --host 127.0.0.1 --port 18090 > /tmp/fl.log 2>&1 < /dev/null &
+          setsid g4f --bind "127.0.0.1:18091" --no-gui --g4f-api-key g4f-CI \
+            > /tmp/g4f.log 2>&1 < /dev/null &
+          sleep 10
+
+      - name: Run benchmark
+        run: python3 benchmark_models.py
+
+      - name: Show summary head
+        run: head -40 model_benchmark_summary.md
+
+      - name: Commit fresh results
+        run: |
+          git config user.name "mn3-99"
+          git config user.email "mn3-99@users.noreply.github.com"
+          git add model_benchmark.jsonl model_benchmark_summary.md model_benchmark_report.md
+          git -c user.name="mn3-99" -c user.email="mn3-99@users.noreply.github.com" \
+            commit -q -m "chore: refresh live benchmark $(date -u +%Y-%m-%d)" || echo "no changes"
+          git push || echo "push skipped"

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keyless LLM Stack — Zero-key OpenAI API</title>
+<style>
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;max-width:860px;margin:40px auto;padding:0 20px;color:#1a1a1a;line-height:1.65}
+  h1{font-size:1.9em} h2{margin-top:2em;border-bottom:1px solid #eee;padding-bottom:.3em}
+  code{background:#f5f5f5;padding:2px 6px;border-radius:4px;font-size:.95em}
+  pre{background:#0d1117;color:#e6edf3;padding:16px;border-radius:8px;overflow:auto;font-size:.9em}
+  pre code{background:none;color:inherit;padding:0}
+  table{border-collapse:collapse;width:100%;margin:16px 0}
+  th,td{border:1px solid #e0e0e0;padding:8px 10px;text-align:right}
+  th{background:#f7f7f7}
+  .badge{display:inline-block;background:#0a7d33;color:#fff;border-radius:20px;padding:2px 12px;font-size:.85em}
+  a{color:#0969da}
+</style>
+</head>
+<body>
+<h1>Keyless LLM Stack <span class="badge">zero API keys</span></h1>
+<p>بوابة &#8220;OpenAI-compatible&#8221; تعتمد مزوّدين عامين <b>بلا مفاتيح، بلا تسجيل، بلا أي مصادقة منك</b>. فُحصت حياً (خط multicscript) على مئات المسارات.</p>
+
+<h2>دائم ومستضاف فعلاً: Kilo Gateway</h2>
+<p>نقطة API معلومة، مفتوحة، لتطبيقنا وأي تطبيق خارجي دون حساب:</p>
+<pre><code>BASE  https://api.kilo.ai/api/gateway
+KEY   (بدون أي مفتاح)
+MODEL kilo-auto/free      # اختيار ذكي تلقائي
+      openrouter/free     # مجمع نماذج OpenRouter المجانية
+      nvidia/nemotron-3-ultra-550b-a55b:free
+</code></pre>
+<pre><code>curl https://api.kilo.ai/api/gateway/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{"model":"kilo-auto/free","messages":[{"role":"user","content":"ما هو 17*23؟"}]}'
+</code></pre>
+<pre><code>curl https://api.kilo.ai/api/gateway/models   # كل النماذج
+</code></pre>
+
+<h3>من أي مشروع خارجي</h3>
+<h4>Python</h4>
+<pre><code>from openai import OpenAI
+client = OpenAI(base_url="https://api.kilo.ai/api/gateway", api_key="x")
+r = client.chat.completions.create(model="openrouter/free",
+      messages=[{"role":"user","content":"11*13?"}])
+print(r.choices[0].message.content)
+</code></pre>
+<h4>Node.js</h4>
+<pre><code>const r = await fetch("https://api.kilo.ai/api/gateway/chat/completions", {
+  method: "POST",
+  headers: {"Content-Type":"application/json"},
+  body: JSON.stringify({model:"openrouter/free",
+    messages:[{role:"user",content:"11*13?"}]})
+});
+console.log((await r.json()).choices[0].message.content);
+</code></pre>
+
+<h2>بالمحلي (بوابتان مناسبتان لأدواتك)</h2>
+<table>
+<tr><th>بوابة</th><th>Endpoint</th><th>نموذج</th></tr>
+<tr><td>freellmpool</td><td><code>http://127.0.0.1:18090/v1</code></td><td><code>auto</code></td></tr>
+<tr><td>g4f</td><td><code>http://127.0.0.1:18091/v1</code></td><td><code>gpt-4</code></td></tr>
+</table>
+<p>شغّلهما بـ <code>./free_llm_start.sh</code> (المفاتيح محلية 100%).</p>
+
+<h2>المِقياس الحي</h2>
+<ul>
+<li><a href="model_benchmark_report.md">التقرير الكامل</a></li>
+<li><a href="model_benchmark_summary.md">الملخص</a></li>
+<li><a href="model_benchmark.jsonl">القياسات الخام</a></li>
+</ul>
+<p><i>يُحدَّث تلقائياً يومياً عبر GitHub Actions.</i></p>
+</body>
+</html>
