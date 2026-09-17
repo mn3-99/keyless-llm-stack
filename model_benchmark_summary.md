@@ -1,108 +1,106 @@
 # Benchmark: 330 endpoints
 
-- responded OK: 35
-- correct (7+8=15): 19
-- failed: 295
+- responded OK: 32
+- correct (7+8=15): 17
+- failed: 298
 
 ## Fastest correct
 
--   0.50s  freellmpool  kilo/cohere/north-mini-code:free
--   0.51s  freellmpool  fair
--   0.63s  kilo-direct  nex-agi/nex-n2.5-mini:free
--   0.67s  kilo-direct  cohere/north-mini-code:free
--   0.70s  kilo-direct  nex-agi/nex-n2.5-pro:free
--   0.77s  freellmpool  kilo/inclusionai/ling-3.0-flash-fin:free
--   0.86s  kilo-direct  inclusionai/ling-3.0-flash-fin:free
--   0.97s  kilo-direct  nvidia/nemotron-3-super-120b-a12b:free
--   1.09s  kilo-direct  nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
--   1.23s  freellmpool  kilo/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
--   1.26s  freellmpool  kilo/poolside/laguna-s-2.1:free
--   1.34s  freellmpool  kilo/openrouter/free
--   1.44s  freellmpool  llm7/default
--   2.12s  kilo-direct  poolside/laguna-s-2.1:free
--   2.48s  kilo-direct  inclusionai/ling-3.0-flash-vl:free
--   3.00s  freellmpool  kilo/nvidia/nemotron-3.5-lightning:free
--   3.20s  freellmpool  kilo/nvidia/nemotron-3-super-120b-a12b:free
--   6.83s  kilo-direct  nvidia/nemotron-3-ultra-550b-a55b:free
--   8.80s  freellmpool  kilo/nvidia/nemotron-3-ultra-550b-a55b:free
+-   0.48s  freellmpool  kilo/cohere/north-mini-code:free
+-   0.69s  kilo-direct  cohere/north-mini-code:free
+-   0.83s  freellmpool  kilo/openrouter/free
+-   0.83s  freellmpool  kilo/kilo-auto/free
+-   0.84s  freellmpool  kilo/inclusionai/ling-3.0-flash-fin:free
+-   0.86s  freellmpool  kilo/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+-   0.86s  kilo-direct  nex-agi/nex-n2.5-pro:free
+-   0.87s  freellmpool  fair
+-   1.03s  kilo-direct  nex-agi/nex-n2.5-mini:free
+-   1.12s  freellmpool  kilo/nvidia/nemotron-3-ultra-550b-a55b:free
+-   1.57s  kilo-direct  inclusionai/ling-3.0-flash-vl:free
+-   1.76s  kilo-direct  nvidia/nemotron-3-ultra-550b-a55b:free
+-   1.99s  kilo-direct  inclusionai/ling-3.0-flash-fin:free
+-   2.02s  kilo-direct  poolside/laguna-s-2.1:free
+-   2.20s  freellmpool  llm7/default
+-   2.39s  freellmpool  agent
+-   3.98s  freellmpool  kilo/nvidia/nemotron-3.5-lightning:free
 
 ## All failures
 
-- g4f  gpt-4o  ->  timed out
+- g4f  default  ->  timed out
 - g4f  gpt-4  ->  timed out
 - g4f  gpt-4o-mini  ->  timed out
-- g4f  default  ->  timed out
-- g4f  o1  ->  timed out
+- g4f  gpt-4o  ->  timed out
 - g4f  gpt-4o-mini-tts  ->  timed out
+- g4f  o1  ->  timed out
 - g4f  o1-mini  ->  timed out
 - g4f  o3-mini  ->  timed out
 - g4f  o4-mini  ->  timed out
 - g4f  o4-mini-high  ->  timed out
 - g4f  o3-mini-high  ->  timed out
 - g4f  gpt-4.1  ->  timed out
-- g4f  gpt-4.1-mini  ->  timed out
-- g4f  gpt-4.1-nano  ->  timed out
 - g4f  gpt-4.5  ->  timed out
+- g4f  gpt-4.1-nano  ->  timed out
+- g4f  gpt-4.1-mini  ->  timed out
 - g4f  gpt-oss-120b  ->  timed out
+- g4f  gpt-image  ->  timed out
 - g4f  dall-e-3  ->  timed out
 - g4f  meta-ai  ->  timed out
 - g4f  llama-2-70b  ->  timed out
-- g4f  gpt-image  ->  timed out
-- g4f  llama-3.1-8b  ->  timed out
 - g4f  llama-3-8b  ->  timed out
-- g4f  llama-3.1-70b  ->  timed out
 - g4f  llama-3-70b  ->  timed out
-- g4f  llama-3.2-90b  ->  timed out
-- g4f  llama-3.2-3b  ->  timed out
+- g4f  llama-3.1-70b  ->  timed out
+- g4f  llama-3.1-8b  ->  timed out
 - g4f  llama-3.1-405b  ->  timed out
+- g4f  llama-3.2-3b  ->  timed out
+- g4f  llama-3.2-90b  ->  timed out
 - g4f  llama-4-scout  ->  timed out
-- g4f  mistral-7b  ->  timed out
 - g4f  llama-4-maverick  ->  timed out
-- g4f  mistral-small-24b  ->  timed out
+- g4f  mistral-7b  ->  timed out
 - g4f  mixtral-8x7b  ->  timed out
+- g4f  mistral-small-24b  ->  timed out
 - g4f  mistral-small-3.1-24b  ->  timed out
 - g4f  hermes-2-dpo  ->  timed out
-- g4f  gemini-2.5-pro  ->  timed out
 - g4f  gemini-2.5-flash  ->  timed out
-- g4f  gemini-3.5-flash  ->  timed out
+- g4f  gemini-2.5-pro  ->  timed out
 - g4f  gemini-3-pro-preview  ->  timed out
 - g4f  gemini-3.1-flash-lite  ->  timed out
 - g4f  gemini-3.1-pro  ->  timed out
+- g4f  gemini-3.5-flash  ->  timed out
 - g4f  gemini-3.6-flash  ->  timed out
 - g4f  gemini-3.5-flash-thinking  ->  timed out
 - g4f  gemini-3.5-flash-lite  ->  timed out
 - g4f  gemini-auto  ->  timed out
-- g4f  gemini-flash-lite  ->  timed out
 - g4f  gemini-3.5-flash-thinking-lite  ->  timed out
+- g4f  gemini-flash-lite  ->  timed out
 - g4f  command-r7b  ->  timed out
 - g4f  command-a  ->  timed out
-- g4f  qwen-2.5-vl-72b  ->  timed out
 - g4f  qwen-2.5-coder-32b  ->  timed out
+- g4f  qwen-2.5-vl-72b  ->  timed out
 - g4f  qwen-3-235b  ->  timed out
 - g4f  qwen-3-32b  ->  timed out
 - g4f  qwq-32b  ->  timed out
-- g4f  deepseek-r1-distill-llama-70b  ->  timed out
 - g4f  deepseek-v3  ->  timed out
 - g4f  deepseek-r1  ->  timed out
+- g4f  deepseek-r1-distill-llama-70b  ->  timed out
 - g4f  deepseek-r1-distill-qwen-1.5b  ->  timed out
 - g4f  deepseek-r1-distill-qwen-14b  ->  timed out
-- g4f  grok-3  ->  timed out
 - g4f  grok-2  ->  timed out
+- g4f  grok-3  ->  timed out
 - g4f  grok-3-r1  ->  timed out
+- g4f  kimi-k2  ->  timed out
 - g4f  sonar  ->  timed out
 - g4f  sonar-pro  ->  timed out
-- g4f  kimi-k2  ->  timed out
 - g4f  sonar-reasoning  ->  timed out
 - g4f  sonar-reasoning-pro  ->  timed out
-- g4f  nemotron-70b  ->  timed out
 - g4f  r1-1776  ->  timed out
+- g4f  nemotron-70b  ->  timed out
 - g4f  aria  ->  timed out
-- g4f  sd-3.5-large  ->  timed out
 - g4f  sdxl-turbo  ->  timed out
 - g4f  flux  ->  timed out
+- g4f  sd-3.5-large  ->  timed out
 - g4f  flux-pro  ->  timed out
-- g4f  glm-5.2  ->  timed out
 - g4f  flux-kontext  ->  timed out
+- g4f  glm-5.2  ->  timed out
 - g4f  kimi-k2.7-code  ->  timed out
 - g4f  nemotron-3-ultra-550b-a55b  ->  timed out
 - g4f  deepseek-v4-flash  ->  timed out
@@ -114,31 +112,31 @@
 - g4f  qwen-3.5-397b-a17b  ->  timed out
 - g4f  gemma-4-26b-a4b-it  ->  timed out
 - g4f  gemma-4-31b-it  ->  timed out
-- g4f  nemotron-3-super-120b-a12b  ->  timed out
 - g4f  glm-5  ->  timed out
+- g4f  nemotron-3-super-120b-a12b  ->  timed out
 - g4f  minimax-m2.5  ->  timed out
 - g4f  qwen-3-max  ->  timed out
-- g4f  qwen-3-max-thinking  ->  timed out
 - g4f  kimi-k2.5  ->  timed out
+- g4f  qwen-3-max-thinking  ->  timed out
 - g4f  glm-4.7-flash  ->  timed out
 - g4f  deepseek-v3.2  ->  timed out
 - g4f  flux-2-klein-4b  ->  timed out
 - g4f  flux-2-klein-9b  ->  timed out
 - g4f  inkling  ->  timed out
-- g4f  ternary-bonsai-27b-gguf  ->  timed out
 - g4f  hy3  ->  timed out
+- g4f  ternary-bonsai-27b-gguf  ->  timed out
 - g4f  qwen-3.6-27b  ->  timed out
 - g4f  ornith-1.0-35b  ->  timed out
-- g4f  apertus-v1.5-70b  ->  timed out
 - g4f  minimax-m3  ->  timed out
+- g4f  apertus-v1.5-70b  ->  timed out
 - g4f  apertus-v1.5-8b  ->  timed out
 - g4f  qwen-3.5-9b  ->  timed out
 - g4f  qwen-3-8b  ->  timed out
-- g4f  qwen-3.5-27b  ->  timed out
 - g4f  gpt-oss-20b  ->  timed out
+- g4f  qwen-3.5-27b  ->  timed out
 - g4f  qwen-3-coder-30b-a3b  ->  timed out
-- g4f  mimo-v2.5  ->  timed out
 - g4f  qwen-3-coder-next  ->  timed out
+- g4f  mimo-v2.5  ->  timed out
 - g4f  gemma-3-4b-it  ->  timed out
 - g4f  qwen-3.5-122b-a10b  ->  timed out
 - g4f  ling-2.6-1t  ->  timed out
@@ -158,8 +156,8 @@
 - g4f  kimi-k2-0905  ->  timed out
 - g4f  qwen-2.5-7b  ->  timed out
 - g4f  qwen-3-vl-235b-a22b  ->  timed out
-- g4f  qwen-3-coder-480b-a35b  ->  timed out
 - g4f  llama-3.3-70b  ->  timed out
+- g4f  qwen-3-coder-480b-a35b  ->  timed out
 - g4f  gpt-oss-safeguard-20b  ->  timed out
 - g4f  command-r7b24  ->  timed out
 - g4f  qwen-3-235b-a22b-2507  ->  timed out
@@ -182,8 +180,8 @@
 - g4f  minimax-m2.7  ->  timed out
 - g4f  llama-4-maverick-17b-128e  ->  timed out
 - g4f  deepseek-v3-0324  ->  timed out
-- g4f  glm-4-32b-0414  ->  timed out
 - g4f  ernie-4.5-vl-424b-a47b-base-pt  ->  timed out
+- g4f  glm-4-32b-0414  ->  timed out
 - g4f  deepseek-r1-0528  ->  timed out
 - g4f  qwen-3-235b-a22b-thinking-2507  ->  timed out
 - g4f  deepseek  ->  timed out
@@ -194,8 +192,8 @@
 - g4f  glm-4.6  ->  timed out
 - g4f  glm-4.6v-flash  ->  timed out
 - g4f  l3-8b-lunaris  ->  timed out
-- g4f  glm-4.6v  ->  timed out
 - g4f  deepseek-v3.1  ->  timed out
+- g4f  glm-4.6v  ->  timed out
 - g4f  minimax-m1-80k  ->  timed out
 - g4f  deepseek-v3.1-terminus  ->  timed out
 - g4f  command-r24  ->  timed out
@@ -205,16 +203,16 @@
 - g4f  minimax-m2  ->  timed out
 - g4f  command-r7b-arabic25  ->  timed out
 - g4f  command-a-vision25  ->  timed out
-- g4f  command-a-reasoning25  ->  timed out
 - g4f  minimax-m2.1  ->  timed out
+- g4f  command-a-reasoning25  ->  timed out
 - g4f  gemma-3n-e4b-it  ->  timed out
 - g4f  command-a-translate25  ->  timed out
 - g4f  qwen-3-vl-235b-a22b-thinking  ->  timed out
 - g4f  gemma-4-31b-it-pearl  ->  timed out
 - g4f  tiny-aya-water  ->  timed out
 - g4f  apertus-70b-2509  ->  timed out
-- g4f  autoglm-phone-9b-multilingual  ->  timed out
 - g4f  tiny-aya-fire  ->  timed out
+- g4f  autoglm-phone-9b-multilingual  ->  timed out
 - g4f  qwen-sea-lion-v4-32b-it  ->  timed out
 - g4f  olmo-3-7b  ->  timed out
 - g4f  eurollm-22b-2512  ->  timed out
@@ -222,15 +220,15 @@
 - g4f  command-r-plus  ->  timed out
 - g4f  command-r-plus24  ->  timed out
 - g4f  flux-dev  ->  timed out
-- g4f  perplexity  ->  timed out
 - g4f  flux-kontext-dev  ->  timed out
+- g4f  perplexity  ->  timed out
 - g4f  pplx_pro  ->  timed out
 - g4f  video  ->  timed out
 - g4f  AIBadgr  ->  timed out
 - g4f  Anthropic  ->  timed out
 - g4f  Antigravity  ->  timed out
-- g4f  Airforce  ->  timed out
 - g4f  BingCreateImages  ->  timed out
+- g4f  Airforce  ->  timed out
 - g4f  BraveSearch  ->  timed out
 - g4f  BlackForestLabs_Flux1Dev  ->  timed out
 - g4f  BlackForestLabs_Flux1KontextDev  ->  timed out
@@ -241,63 +239,63 @@
 - g4f  Cloudflare  ->  timed out
 - g4f  Cohere  ->  timed out
 - g4f  CohereForAI_C4AI_Command  ->  timed out
+- g4f  CopilotAccount  ->  timed out
 - g4f  Copilot  ->  timed out
 - g4f  CopilotApp  ->  timed out
-- g4f  CopilotAccount  ->  timed out
 - g4f  CopilotSession  ->  timed out
 - g4f  ElevenLabs  ->  timed out
-- g4f  GLM  ->  timed out
 - g4f  G4FSpace  ->  timed out
+- g4f  GLM  ->  timed out
 - g4f  Gemini  ->  timed out
 - g4f  GeminiCLI  ->  timed out
 - g4f  GeminiPro  ->  timed out
 - g4f  GigaChat  ->  timed out
 - g4f  GithubCopilot  ->  timed out
 - g4f  GithubCopilotAPI  ->  timed out
-- g4f  GoogleSearch  ->  timed out
 - g4f  GoogleAiMode  ->  timed out
+- g4f  GoogleSearch  ->  timed out
 - g4f  Grok  ->  timed out
-- g4f  Groq  ->  timed out
 - g4f  HailuoAI  ->  timed out
+- g4f  Groq  ->  timed out
 - g4f  HuggingChat  ->  timed out
 - g4f  HuggingFace  ->  timed out
-- g4f  HuggingFaceMedia  ->  timed out
 - g4f  HuggingSpace  ->  timed out
+- g4f  HuggingFaceMedia  ->  timed out
 - g4f  LMArena  ->  timed out
 - g4f  MetaAI  ->  timed out
-- g4f  MetaAIAccount  ->  timed out
 - g4f  MicrosoftDesigner  ->  timed out
+- g4f  MetaAIAccount  ->  timed out
 - g4f  MiniMax  ->  timed out
-- g4f  Nvidia  ->  timed out
 - g4f  KiloCode  ->  timed out
-- g4f  LLM7  ->  timed out
+- g4f  Nvidia  ->  timed out
 - g4f  RelayRouter  ->  timed out
+- g4f  LLM7  ->  timed out
 - g4f  Ollama  ->  timed out
 - g4f  OpenAIFM  ->  timed out
 - g4f  OpenCode  ->  timed out
 - g4f  OpenRouter  ->  timed out
+- g4f  OpenaiAPI  ->  timed out
 - g4f  OpenRouterFree  ->  timed out
 - g4f  OrcaRouter  ->  timed out
-- g4f  OpenaiAPI  ->  timed out
 - g4f  OpenaiAccount  ->  timed out
 - g4f  OpenaiChat  ->  timed out
+- g4f  Perplexity  ->  timed out
 - g4f  OperaAria  ->  timed out
 - g4f  PerplexityApi  ->  timed out
-- g4f  Perplexity  ->  timed out
-- g4f  PhindAi  ->  timed out
 - g4f  Pi  ->  timed out
+- g4f  PhindAi  ->  timed out
 - g4f  Pollinations  ->  timed out
 - g4f  PollinationsAudio  ->  timed out
-- g4f  PollinationsImage  ->  timed out
 - g4f  Puter  ->  timed out
+- g4f  PollinationsImage  ->  timed out
 - g4f  Qwen  ->  timed out
 - g4f  Replicate  ->  timed out
-- g4f  StabilityAI_SD35Large  ->  timed out
 - g4f  TeachAnything  ->  timed out
+- g4f  StabilityAI_SD35Large  ->  timed out
 - g4f  ThebApi  ->  timed out
 - g4f  Together  ->  timed out
-- g4f  WhiteRabbitNeo  ->  timed out
 - g4f  You  ->  timed out
+- g4f  WhiteRabbitNeo  ->  timed out
 - g4f  Yqcloud  ->  timed out
 - g4f  xAI  ->  timed out
 - freellmpool  ovh/Meta-Llama-3_3-70B-Instruct  ->  HTTP 502: {"error": {"message": "all providers exhausted (ovh/Meta-Llama-3_3-70B-Instruct: skipped (persistent circuit open))", "t
@@ -313,13 +311,16 @@
 - freellmpool  ovh/gpt-oss-20b  ->  HTTP 502: {"error": {"message": "all providers exhausted (ovh/gpt-oss-20b: skipped (persistent circuit open))", "type": "all_provi
 - freellmpool  ovh/Qwen3-Coder-30B-A3B-Instruct  ->  HTTP 502: {"error": {"message": "all providers exhausted (ovh/Qwen3-Coder-30B-A3B-Instruct: skipped (persistent circuit open))", "
 - freellmpool  llm7/codestral-latest  ->  HTTP 502: {"error": {"message": "all providers exhausted (llm7/codestral-latest: HTTP 429: Rate limit exceeded. Retry after 1 seco
-- freellmpool  kilo/kilo-auto/free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/kilo-auto/free: empty completion)", "type": "all_providers_exhauste
-- freellmpool  kilo/poolside/laguna-xs-2.1:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/poolside/laguna-xs-2.1:free: empty completion)", "type": "all_provi
+- freellmpool  kilo/poolside/laguna-xs-2.1:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/poolside/laguna-xs-2.1:free: HTTP 429: Provider returned error)", "
+- freellmpool  kilo/nvidia/nemotron-3-super-120b-a12b:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/nvidia/nemotron-3-super-120b-a12b:free: HTTP 502: no choices in res
 - freellmpool  kilo/stepfun/step-3.7-flash:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/stepfun/step-3.7-flash:free: empty completion)", "type": "all_provi
-- freellmpool  kilo/dots-studio/dots-3-note-preview:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/dots-studio/dots-3-note-preview:free: empty completion)", "type": "
 - freellmpool  kilo/meituan/longcat-2.0-free  ->  HTTP 401: {"error": {"message": "HTTP 401: You need to sign in to use this model.", "type": "invalid_request_error"}}
 - freellmpool  kilo/minimax/minimax-m2.7:free  ->  HTTP 404: {"error": {"message": "HTTP 404: The requested model 'minimax/minimax-m2.7:free' does not exist. Please use an exact mod
-- freellmpool  kilo/liquid/lfm-2.5-2.6b:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/liquid/lfm-2.5-2.6b:free: empty completion)", "type": "all_provider
+- freellmpool  kilo/dots-studio/dots-3-note-preview:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/dots-studio/dots-3-note-preview:free: empty completion)", "type": "
 - freellmpool  kilo/tencent/hy3:free  ->  HTTP 404: {"error": {"message": "HTTP 404: The requested model 'tencent/hy3:free' does not exist. Please use an exact model id as 
+- freellmpool  kilo/liquid/lfm-2.5-2.6b:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/liquid/lfm-2.5-2.6b:free: empty completion)", "type": "all_provider
+- freellmpool  kilo/poolside/laguna-s-2.1:free  ->  HTTP 502: {"error": {"message": "all providers exhausted (kilo/poolside/laguna-s-2.1:free: HTTP 429: Provider returned error)", "t
 - kilo-direct  thinkingmachines/inkling-small:free  ->  HTTP 429: {"error":{"message":"Rate limit exceeded: limit_rpd/thinkingmachines/inkling-small-20260730/e27a9a6d-1451-4be4-876e-292f
 - kilo-direct  z-ai/glm-5.2:free  ->  HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"z-ai/glm-5.2:free is temporarily rate-limite
+- kilo-direct  nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free  ->  'choices'
+- kilo-direct  nvidia/nemotron-3-super-120b-a12b:free  ->  'choices'
